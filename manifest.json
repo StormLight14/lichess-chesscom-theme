@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Lichess to Chess.com theme",
+  "version": "1.0",
+
+  "description": "Reskins lichess.org to look like chess.com.",
+
+  "icons": {
+    "48": "icons/chesscom-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.lichess.org/*"],
+      "js": ["lichess-to-chesscom.js"]
+    }
+  ]
+}
