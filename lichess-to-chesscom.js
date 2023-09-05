@@ -9,8 +9,18 @@ document.querySelectorAll('a').forEach(function (element) {
   }
 
 });
+
+const chesscomLogo = document.createElement('img');
+
+chesscomLogo.src = 'https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png';
+chesscomLogo.height = 50;
+chesscomLogo.width = 50;
+chesscomLogo.style.float = "left";
+
+document.querySelector('.site-title').appendChild(chesscomLogo);
 let user_tag = document.getElementById('user_tag');
 user_tag.textContent = "⚙";
+user_tag.style.fontSize = "25px";
 
 document.querySelectorAll('span').forEach(function (element) {
   element.style.color = "#FFFFFF";
