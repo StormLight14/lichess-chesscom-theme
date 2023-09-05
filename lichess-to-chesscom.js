@@ -39,5 +39,5 @@ function loadCSSFile(filename) {
   console.log(link);
 }
 
-loadCSSFile("squares.css");
+loadCSSFile(browser.runtime.getURL("squares.css"));
 
