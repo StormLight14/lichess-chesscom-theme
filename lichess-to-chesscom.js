@@ -1,4 +1,3 @@
-document.body.style.border = "4px solid purple";
 document.body.style.background = "#312e2b";
 document.querySelectorAll('a').forEach(function (element) {
   element.style.color = "#FFFFFF";
